@@ -1,0 +1,17 @@
+.nav {
+    float: left;
+    min-height: 550px;
+    width: 223px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+    left: 50px;
+    
+}
+nav>ul{
+    text-decoration: none;
+}
+div {
+    display: block;
+}

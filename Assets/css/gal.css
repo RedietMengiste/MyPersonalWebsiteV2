@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .nav .menu_wrap >li{
     text-decoration: none;
 /* .nav .menu_wrap {
@@ -14,6 +18,8 @@
     transition: opacity 0.3s ease;
  */
 }
+
+
 .nav {
     float: left;
     min-height: 550px;
@@ -56,3 +62,25 @@ div {
     padding: 0;
     float: left;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.images {
+    float: left;
+    height: 33.33%;
+    padding: 5px;
+    width: inherit;
+  }
+  
+  /* Clearfix (clear floats) */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

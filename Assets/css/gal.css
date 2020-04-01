@@ -1,7 +1,11 @@
-*{
-    box-sizing: border-box;
-}
 
+body {
+    line-height: 1;
+    font-family: "Times New Roman", "Times Roman", serif;
+    color: #000000;
+    font-size: 14px;
+    background: #ffffff;
+}
 .nav .menu_wrap >li{
     text-decoration: none;
 /* .nav .menu_wrap {
@@ -31,15 +35,19 @@
     background-color:white;
     
 }
+.nav_container{
+    color: black;
+    text-decoration: none;
+}
 .main_nav>li{
     text-decoration: none;
 }
 .main_nav>li>a{
     text-decoration: none;
 }
-div {
+/* div {
     display: block;
-}
+} */
 .links>ul>li{
     display: inline-block;
     
@@ -49,10 +57,21 @@ div {
 }
 
 /* #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
-.gallery .asset.image {
-    position: relative;
+
+
+ .image .img img {
+    
+    height: 590px;
+    width: auto;
+    display: block;
 }
-.gallery .asset {
+.image{
+    display: table-cell;
+}
+/* .gallery .asset.image {
+    position: relative;
+} */
+/* .gallery .asset {
     margin-right: 10px;
 }
 .gallery .asset {
@@ -61,26 +80,35 @@ div {
 .gallery .asset {
     padding: 0;
     float: left;
-}
-.clearfix::after {
+} */
+/* .clearfix::after {
     content: "";
     clear: both;
     width: 100%;
     object-fit: cover;
-}
+} */
 
 
 
-.images {
-    float: left;
-    height: 33.33%;
-    padding: 5px;
-    width: inherit;
-  }
-  
+
   /* Clearfix (clear floats) */
-  .clearfix::after {
+  /* .clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
+
+
+#content .container {
+    height: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+} */

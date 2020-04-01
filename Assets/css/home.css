@@ -1,7 +1,8 @@
-.container{
-    align-items: center;
+.copyr{
+    align-content: center;
 }
 .img-responsive{
-    width: 100%;
+    width: 80%;
     height: auto;
+    align-content: center;
 }

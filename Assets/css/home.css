@@ -2,7 +2,8 @@
     align-content: center;
 }
 .img-responsive{
-    width: 80%;
+    width: 86%;
     height: auto;
-    align-content: center;
+    align-content: flex-start;
+    margin-left: 80px;
 }

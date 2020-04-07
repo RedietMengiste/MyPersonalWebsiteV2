@@ -11,7 +11,6 @@ body {
 
 .nav {
     float: left;
-    
     width: 230px;
     min-height: 0;
     height: auto;
@@ -88,47 +87,3 @@ h1{
     display: table-cell;
    
 }
-/* .gallery .asset.image {
-    position: relative;
-} */
-/* .gallery .asset {
-    margin-right: 10px;
-}
-.gallery .asset {
-    margin-right: 1px;
-}
-.gallery .asset {
-    padding: 0;
-    float: left;
-} */
-/* .clearfix::after {
-    content: "";
-    clear: both;
-    width: 100%;
-    object-fit: cover;
-} */
-
-
-
-
-  /* Clearfix (clear floats) */
-  /* .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-
-#content .container {
-    height: auto;
-    overflow-x: scroll;
-    overflow-y: hidden;
-}
-.clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
-} */

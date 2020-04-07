@@ -8,7 +8,7 @@ body {
 }
 
 
-/* .nav {
+ .nav {
     float: left;
     width: 230px;
     min-height: 0;
@@ -20,7 +20,7 @@ body {
     text-align: left;
 
     
-} */
+} 
 .nav_container>h2>a{
     
     color: black;
@@ -62,10 +62,13 @@ h2{
 .item_additional_text>ul>li>p{
     text-decoration: none;
 } */
+.linkoch>ul{
+    margin-left: -58px;
+}
+
 .linkoch>ul>li{
     display: inline-block;
-    
-}
+}  
 .linkoch>ul>li :hover{
     opacity: 0.7;
 }

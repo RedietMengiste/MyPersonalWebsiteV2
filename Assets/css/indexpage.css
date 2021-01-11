@@ -1,14 +1,17 @@
 body {
-    
+    overflow-x: hidden;
     font-family: "Times New Roman", "Times Roman", serif;
     color: #000000;
     font-size: 14px;
     background: #ffffff;
     text-decoration: none;
 }
+.navbar-custom {
+    border: white;
+     background-color: white !important;
+    overflow: visible; }
 
-
- .nav {
+ /* .nav {
     float: left;
     width: 230px;
     min-height: 0;
@@ -16,11 +19,11 @@ body {
     position: fixed;
     top: 0;
     left: 50px;
-    background-color:#977a7a;
+    background-color:white;
     text-align: left;
 
     
-} 
+}  */
 .nav_container>h2>a{
     
     color: black;
@@ -63,24 +66,40 @@ h2{
     text-decoration: none;
 } */
 .linkoch>ul{
-    margin-left: -58px;
+    margin-left: 20px;
+   
 }
 
 .linkoch>ul>li{
     display: inline-block;
+    
 }  
 .linkoch>ul>li :hover{
-    opacity: 0.7;
+    color: black;
     
 }
-
-
-.form{
-    margin-left: 100px;
+.fa-instagram:hover{
+    color: black !important;
 }
-.img-responsive{
-    width: 700px;
+.fa-telegram:hover{
+    color: black !important;
+}
+.fa-facebook:hover{
+    color: black !important;
+}
+.fa-linkedin:hover{
+    color: black !important;
+}
+.formbar{
+    padding-top: 8%;
+}
+.form{
+    margin-left: 10px;
+    padding-top: 20%;
+}
+.img-fluid{
+    padding-top: 10%;
+    width: 800px;
     height: auto;
     align-content: flex-start;
-    margin-left: 80px;
 }

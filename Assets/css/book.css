@@ -6,6 +6,9 @@ body {
     background: #ffffff;
     text-decoration: none;
 }
+.navbar-custom {
+    border: white;
+     background-color: white !important; }
 
 
 .nav {

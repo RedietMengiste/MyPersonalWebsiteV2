@@ -7,3 +7,6 @@
     align-content: flex-start;
     margin-left: 80px;
 }
+.navbar-custom {
+    border: white;
+     background-color: white !important; }

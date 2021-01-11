@@ -7,6 +7,10 @@ body {
     background: #ffffff;
     text-decoration: none;
 }
+.navbar-custom {
+    border: white;
+     background-color: white !important;
+    margin-top: 2%; }
 
 
 .nav {
@@ -71,10 +75,25 @@ h1{
     display: inline-block;
     
 }
-.linkoch>ul>li :hover{
+/* .linkoch>ul>li :hover{
     opacity: 0.7;
+} */
+.linkoch>ul>li :hover{
+    color: black;
+    
 }
-
+.fa-instagram:hover{
+    color: black !important;
+}
+.fa-telegram:hover{
+    color: black !important;
+}
+.fa-facebook:hover{
+    color: black !important;
+}
+.fa-linkedin:hover{
+    color: black !important;
+}
 /* #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 

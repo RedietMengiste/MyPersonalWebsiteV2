@@ -71,6 +71,10 @@ h1{
 .item_additional_text>ul>li>p{
     text-decoration: none;
 } */
+.linkoch>ul{
+    padding-top: 77%;
+   
+}
 .linkoch>ul>li{
     display: inline-block;
     

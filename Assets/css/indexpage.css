@@ -9,21 +9,8 @@ body {
 .navbar-custom {
     border: white;
      background-color: white !important;
-    overflow: visible; }
+     overflow: visible; }
 
- /* .nav {
-    float: left;
-    width: 230px;
-    min-height: 0;
-    height: auto;
-    position: fixed;
-    top: 0;
-    left: 50px;
-    background-color:white;
-    text-align: left;
-
-    
-}  */
 .nav_container>h2>a{
     
     color: black;
@@ -55,18 +42,8 @@ h2{
     margin-top: 10px;
 }
 
-/* .nav_container.main_nav>ul>li{
-    text-decoration: none;
-}
-.nav_container .main_nav>ul>li>a{
-    text-decoration: none;
-    
-}
-.item_additional_text>ul>li>p{
-    text-decoration: none;
-} */
 .linkoch>ul{
-    margin-left: 20px;
+    padding-top: 77%;
    
 }
 

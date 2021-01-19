@@ -6,13 +6,20 @@ body {
     font-size: 14px;
     background: #ffffff;
     text-decoration: none;
+    overflow-y: hidden;
 }
 .navbar-custom {
     border: white;
      background-color: white !important;
     margin-top: 2%; }
-
-
+.smallone {
+    border: white;
+     background-color: white !important;
+ }
+ .navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 16px;
+    }
 .nav {
     float: left;
     width: 230px;
@@ -60,6 +67,19 @@ h1{
     color: gray;
     margin-top: 10px;
 }
+@media only screen and (min-width: 768px) {
+
+    .smallone{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    .nav{
+        visibility: hidden;
+    }
+}
+
 
 /* .nav_container.main_nav>ul>li{
     text-decoration: none;

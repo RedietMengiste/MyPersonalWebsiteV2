@@ -9,7 +9,14 @@ body {
 .navbar-custom {
     border: white;
      background-color: white !important; }
-
+.smallone {
+    border: white;
+     background-color: white !important;
+ }
+ .navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 16px;
+    }
 
 .nav {
     float: left;
@@ -30,6 +37,19 @@ body {
     text-decoration: none; 
     
 }
+@media only screen and (min-width: 768px) {
+
+    .smallone{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    .nav{
+        visibility: hidden;
+    }
+}
+
 h2{
     
     font-size: 27px;

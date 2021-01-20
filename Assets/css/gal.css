@@ -79,7 +79,11 @@ h1{
         visibility: hidden;
     }
 }
-
+@media only screen and (max-width:480px ){
+    body,html{
+        overflow-y: hidden !important;
+    }
+}
 
 /* .nav_container.main_nav>ul>li{
     text-decoration: none;
